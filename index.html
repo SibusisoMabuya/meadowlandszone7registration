@@ -1,12 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ACMS Member Registration</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <span class="big-circle"></span>
+      <div class="form">
+        <div class="contact-info">
+            <h3 class="title">Meadowlands Zone-7 <br />Member Registration</h1>
+            <p class="text">Nxa ebizwa amagama abangcwele, 'ngab' elami ngiyolifica likhona!</p>
+            <div class="info">
+                <div class="information">
+                    <img src="images/envelope-regular-full.png" class="icon" alt="">
+                    <p>Meadowlands7@toc.adventist.org</p>
+                </div>
+                <div class="information">
+                    <img src="images/location-dot-solid-full.png" class="icon" alt="">
+                    <p>504 Letlatlagwe Street, Meadowlands, Zone-7</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+          <form action="https://formsubmit.co/sbubass@gmail.com" method="post">
+            <!-- Honeypot -->
+             <input type="text" name="_honey" style="display: none;">
+
+             <!-- Disable Captcha -->
+              <input type="hidden" name="_captcha" value="false">
+
+              <!-- Success Message Link -->
+              <input type="hidden" name="_next" value="https://sibusisomabuya.github.io/meadowlandszone7registration/success.html">
+            
+                <div class="input-container focus">
+                    <input type="text" name="First&nbsp;Names" id="firstNames" class="input">
+                    <label for="firstNames">First Names</label>
+                    <span>First Names</span>
+                </div>
+                <div class="input-container focus">
+                    <input type="text" name="Last&nbsp;Name" id="lastName" class="input">
+                    <label for="lastName">Last Name</label>
+                    <span>Last Name</span>
+                </div>
+                <div class="input-container focus">
+                    <input type="email" name="Email" id="email" class="input">
+                    <label for="email">Email</label>
+                    <span>Email</span>
+                </div>
+                <div class="input-container focus">
+                    <input type="tel" name="Phone" id="phone" class="input">
+                    <label for="phone">Phone</label>
+                    <span>Phone</span>
+                </div>
+                <div class="input-container textarea focus">
+                    <textarea name="Address" id="address"></textarea>
+                    <label for="address">Address</label>
+                    <span>Address</span>
+                </div>
+                <div class="input-container focus">
+                    <select id="Gender" name="gender">
+                        <option></option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <label for="">Gender</label>
+                    <span>Gender</span>
+                </div>
+                <div class="input-container focus">
+                    <input type="date" name="Baptismal&nbsp;Date" id="baptismalDate" class="input">
+                    <label for="baptismalDate">Date of Baptism</label>
+                    <span>Date of Baptism</span>
+                </div>
+                <div class="input-container focus">
+                    <input type="text" name="ID/Passport&nbsp;Number" id="identityNumber" class="input">
+                    <label for="identityNumber">ID/Passport Number</label>
+                    <span>ID/Passport Number</span>
+                </div>
+                
+                <div class="input-container focus">
+                    <!-- All countries -->
+<!-- Code and Name -->
+<select class="form-select" autocomplete="country" id="country" name="country">
+    <option>Select Country</option>
+    <option value="ZA">South Africa</option>
+    <option value="SZ">Eswatini (Swaziland)</option>
+    <option value="ZW">Zimbabwe</option>
+    <option value="LS">Lesotho</option>
+    <option value="MZ">Mozambique</option>
+    <option value="BW">Botswana</option>
+    <option value="AO">Angola</option>
+    <option value="MG">Madagascar</option>
+    <option value="MW">Malawi</option>
+    <option value="NA">Namibia</option>
+    <option value="ZM">Zambia</option>    
+</select>
+<!-- total - 252 -->
+                    <label for="">Nationality</label>
+                    <span>Nationality</span>
+                </div>
+                <div class="input-container focus">
+                    <input type="file" name="photo" accept="image/jpeg, image/jpg, image/png" class="input">
+                    <label for="photo">Photo</label>
+                    <span>Photo</span>
+                </div>
+
+            <input type="submit" value="Submit" class="button">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
 </html>
