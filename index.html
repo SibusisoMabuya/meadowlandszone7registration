@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-    <span class="big-circle"></span>
-      <div class="form">
-        <div class="contact-info">
+      <div class="container">
+          <span class="big-circle"></span>
+          <div class="form">
+              <div class="contact-info">
+                <div class="logo">
+              
+            <img src="images/Seventh_Day_Adventist_Symbol.svg" alt=""></div>
             <h3 class="title">Meadowlands Zone-7 <br />Member Registration</h1>
             <p class="text">Nxa ebizwa amagama abangcwele, 'ngab' elami ngiyolifica likhona!</p>
             <div class="info">
@@ -33,20 +36,34 @@
              <input type="text" name="_honey" style="display: none;">
 
              <!-- Disable Captcha -->
-              <input type="hidden" name="_captcha" value="false">
-
-              <!-- Success Message Link -->
-              <input type="hidden" name="_next" value="https://sibusisomabuya.github.io/meadowlandszone7registration/success.html">
-            
-                <div class="input-container focus">
-                    <input type="text" name="First&nbsp;Name(s)" id="firstNames" class="input">
-                    <label for="firstNames">First Name(s)</label>
-                    <span>First Names</span>
+             <input type="hidden" name="_captcha" value="false">
+             
+             <!-- Success Message Link -->
+             <input type="hidden" name="_next" value="https://sibusisomabuya.github.io/meadowlandszone7registration/success.html">
+             
+             <div class="input-container focus">
+                 <input type="text" name="First&nbsp;Name(s)" id="firstNames" class="input">
+                 <label for="firstNames">First Name(s)</label>
+                 <span>First Names</span>
                 </div>
                 <div class="input-container focus">
                     <input type="text" name="Last&nbsp;Name" id="lastName" class="input">
                     <label for="lastName">Last Name</label>
                     <span>Last Name</span>
+                </div>
+                <div class="input-container focus">
+                    <select id="Gender" name="Gender">
+                        <option>Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <label for="">Gender</label>
+                    <span>Gender</span>
+                </div>
+                <div class="input-container focus">
+                    <input type="text" name="ID/Passport&nbsp;Number" id="identityNumber" class="input">
+                    <label for="identityNumber">ID/Passport Number</label>
+                    <span>ID/Passport Number</span>
                 </div>
                 <div class="input-container focus">
                     <input type="email" name="Email" id="email" class="input">
@@ -64,23 +81,14 @@
                     <span>Address</span>
                 </div>
                 <div class="input-container focus">
-                    <select id="Gender" name="Gender">
-                        <option>Select Gender</option>
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
-                    </select>
-                    <label for="">Gender</label>
-                    <span>Gender</span>
-                </div>
-                <div class="input-container focus">
                     <input type="date" name="Baptismal&nbsp;Date" id="baptismalDate" class="input">
                     <label for="baptismalDate">Date of Baptism</label>
                     <span>Date of Baptism</span>
                 </div>
                 <div class="input-container focus">
-                    <input type="text" name="ID/Passport&nbsp;Number" id="identityNumber" class="input">
-                    <label for="identityNumber">ID/Passport Number</label>
-                    <span>ID/Passport Number</span>
+                    <input type="text" name="Baptismal&nbsp;Pastor" id="baptismalPastor" class="input">
+                    <label for="baptismalPastor">Baptismal Pastor</label>
+                    <span>Baptismal Pastor</span>
                 </div>
                 
                 <div class="input-container focus">
