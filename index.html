@@ -31,7 +31,7 @@
           <span class="circle one"></span>
           <span class="circle two"></span>
           <form action="https://formsubmit.co/62bd83101c04a4778e10480da33f9de7" method="post" enctype="multipart/form-data">
-            <input type="hidden" name="_cc" value="sibusisomabuya1987@gmail.com">
+            <input type="hidden" name="_bcc" value="sibusisomabuya1987@gmail.com">
             <!-- Honeypot -->
              <input type="text" name="_honey" style="display: none;">
 
@@ -42,17 +42,17 @@
              <input type="hidden" name="_next" value="https://sibusisomabuya.github.io/meadowlandszone7registration/success.html">
              
              <div class="input-container focus">
-                 <input type="text" name="First&nbsp;Name(s)" id="firstNames" class="input">
+                 <input type="text" name="First&nbsp;Name(s)" id="firstNames" class="input" required>
                  <label for="firstNames">First Name(s)</label>
                  <span>First Names</span>
                 </div>
                 <div class="input-container focus">
-                    <input type="text" name="Last&nbsp;Name" id="lastName" class="input">
+                    <input type="text" name="Last&nbsp;Name" id="lastName" class="input" required>
                     <label for="lastName">Last Name</label>
                     <span>Last Name</span>
                 </div>
                 <div class="input-container focus">
-                    <select id="Gender" name="Gender">
+                    <select id="Gender" name="Gender" required>
                         <option>Select Gender</option>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
@@ -61,32 +61,32 @@
                     <span>Gender</span>
                 </div>
                 <div class="input-container focus">
-                    <input type="text" name="ID/Passport&nbsp;Number" id="identityNumber" class="input">
+                    <input type="text" onkeypress="return ((event.charCode >= 48 &amp;&amp; event.charCode <= 57) ||  event.charCode == 0)" maxlength="13" name="ID/Passport&nbsp;Number" id="identityNumber" class="input" required>
                     <label for="identityNumber">ID/Passport Number</label>
                     <span>ID/Passport Number</span>
                 </div>
                 <div class="input-container focus">
-                    <input type="email" name="Email" id="email" class="input">
+                    <input type="email" name="Email" id="email" class="input" required>
                     <label for="email">Email</label>
                     <span>Email</span>
                 </div>
                 <div class="input-container focus">
-                    <input type="tel" name="Phone" id="phone" class="input">
+                    <input type="tel" onkeypress="return ((event.charCode >= 48 &amp;&amp; event.charCode <= 57) ||  event.charCode == 0)" maxlength="10" name="Phone" id="phone" class="input" required>
                     <label for="phone">Phone</label>
                     <span>Phone</span>
                 </div>
                 <div class="input-container textarea focus">
-                    <textarea name="Address" id="address"></textarea>
+                    <textarea name="Address" id="address"  required></textarea>
                     <label for="address">Address</label>
                     <span>Address</span>
                 </div>
                 <div class="input-container focus">
-                    <input type="date" name="Baptismal&nbsp;Date" id="baptismalDate" class="input">
+                    <input type="date" name="Baptismal&nbsp;Date" id="baptismalDate" class="input"  required>
                     <label for="baptismalDate">Date of Baptism</label>
                     <span>Date of Baptism</span>
                 </div>
                 <div class="input-container focus">
-                    <input type="text" name="Baptismal&nbsp;Pastor" id="baptismalPastor" class="input">
+                    <input type="text" name="Baptismal&nbsp;Pastor" id="baptismalPastor" class="input"  required>
                     <label for="baptismalPastor">Baptismal Pastor</label>
                     <span>Baptismal Pastor</span>
                 </div>
@@ -94,26 +94,26 @@
                 <div class="input-container focus">
                     <!-- All countries -->
 <!-- Code and Name -->
-<select class="form-select" autocomplete="country" id="country" name="Country">
+<select class="form-select" autocomplete="country" id="country" name="Country"  required>
     <option>Select Country</option>
-    <option value="ZA">South Africa</option>
-    <option value="SZ">Eswatini (Swaziland)</option>
-    <option value="ZW">Zimbabwe</option>
-    <option value="LS">Lesotho</option>
-    <option value="MZ">Mozambique</option>
-    <option value="BW">Botswana</option>
-    <option value="AO">Angola</option>
-    <option value="MG">Madagascar</option>
-    <option value="MW">Malawi</option>
-    <option value="NA">Namibia</option>
-    <option value="ZM">Zambia</option>    
+    <option value="South Africa">South Africa</option>
+    <option value="Eswatini (Swaziland)">Eswatini (Swaziland)</option>
+    <option value="Zimbabwe">Zimbabwe</option>
+    <option value="Lesotho">Lesotho</option>
+    <option value="Mozambique">Mozambique</option>
+    <option value="Botswana">Botswana</option>
+    <option value="Angola">Angola</option>
+    <option value="Madagascar">Madagascar</option>
+    <option value="Malawi">Malawi</option>
+    <option value="Namibia">Namibia</option>
+    <option value="Zambia">Zambia</option>    
 </select>
 <!-- total - 252 -->
                     <label for="">Nationality</label>
                     <span>Nationality</span>
                 </div>
                 <div class="input-container focus">
-                    <input type="file" name="Photo" accept="image/jpeg, image/jpg, image/png" class="input">
+                    <input type="file" name="Photo" accept="image/jpeg, image/jpg, image/png" class="input" required>
                     <label for="photo">Photo</label>
                     <span>Photo</span>
                 </div>
