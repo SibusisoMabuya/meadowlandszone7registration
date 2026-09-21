@@ -151,13 +151,13 @@ input[type="date"] {
   appearance: none;
   min-width: 0;
 }
-
+/* 
 @supports (-webkit-touch-callout: none) {
   input[type="date"] {
     display: inline-flex;
     align-items: center;
   }
-}
+} */
 
 .button {
   width: 100%;
