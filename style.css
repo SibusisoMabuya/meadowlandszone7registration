@@ -144,8 +144,8 @@ textarea.input {
 }
 
 input[type="date"] {
-  box-sizing: border-box;
-  display: block;
+  /* box-sizing: border-box;
+  display: block; */
   width: 100%;
   -webkit-appearance: none;
   appearance: none;
