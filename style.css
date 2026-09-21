@@ -150,6 +150,12 @@ input[type="date"] {
   /* -webkit-appearance: none; */
   appearance: none;
   /* min-width: 0; */
+  outline: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  transition: 0.3s;
 }
 /* 
 @supports (-webkit-touch-callout: none) {
