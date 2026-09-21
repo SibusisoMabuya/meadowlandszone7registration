@@ -143,14 +143,14 @@ textarea.input {
   transform: translateY(0);
 }
 
-/* input[type="date"] {
+input[type="date"] {
   box-sizing: border-box;
-  display: block;
-  width: 100%;
-  -webkit-appearance: none;
-  appearance: none;
-  min-width: 0;
-} */
+  /* display: block; */
+  /* width: 100%; */
+  /* -webkit-appearance: none; */
+  /* appearance: none; */
+  /* min-width: 0; */
+}
 /* 
 @supports (-webkit-touch-callout: none) {
   input[type="date"] {
